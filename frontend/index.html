@@ -1,1 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Kude The Dude V1</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="app">
+<header class="toolbar">
+<div class="nav-left">
+<button id="backBtn" title="Back">◀</button>
+<button id="forwardBtn" title="Forward">▶</button>
+<button id="refreshBtn" title="Refresh">⟳</button>
+</div>
 
+
+<div class="address">
+<input id="addressInput" placeholder="Search or enter URL" />
+<button id="goBtn">Go</button>
+</div>
+
+
+<div class="nav-right">
+<button id="newTabBtn" title="New tab">＋</button>
+</div>
+</header>
+
+
+<div id="tabsBar" class="tabs"></div>
+
+
+<div id="browserArea" class="browser-area"></div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
